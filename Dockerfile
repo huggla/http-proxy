@@ -3,7 +3,7 @@ ARG CONTENTIMAGE1="huggla/pyinstaller-alpine:$TAG"
 ARG CONTENTDESTINATION1="/"
 ARG BUILDDEPS="dash"
 ARG BUILDCMDS=\
-"   head -29 /buildfs/src/proxy.py.org > /src/proxy.py "\
+"   head -39 /buildfs/src/proxy.py.org > /src/proxy.py "\
 "&& tail -26 /buildfs/src/proxy.py.add >> /src/proxy.py "\
 "&& sed -i 's/# Copyright 2018, Sourcepole AG/# Copyright 2018, Sourcepole AG, Henrik Uggla/' /src/proxy.py "\
 "&& cp /buildfs/src/requirements.txt /src/ "\
