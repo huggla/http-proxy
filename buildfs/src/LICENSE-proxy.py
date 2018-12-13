@@ -1,5 +1,6 @@
 Copyright (c) 2015-2016, GeoSolutions Sas
 Copyright (c) 2016 Sourcepole AG
+Copyright (c) 2018 Henrik Uggla
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification, are
